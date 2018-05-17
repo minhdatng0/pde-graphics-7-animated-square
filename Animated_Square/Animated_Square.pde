@@ -19,7 +19,7 @@ void draw() {
       if (x < 0){
       x = width;
     }
-      if ( x > width ){
+       if ( x > width ){
         x = 0;}
    }
 void keyPressed() {
