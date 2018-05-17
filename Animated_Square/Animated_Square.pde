@@ -13,6 +13,7 @@ void setup(){
 
 void draw() {
    background(107,244,66);
+   rectMode(CENTER);
 
 
 }
