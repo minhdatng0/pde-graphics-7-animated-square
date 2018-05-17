@@ -23,6 +23,8 @@ void draw() {
         x = 0;}
         if (y < 0){
           y = height;}
+          if ( y > height){
+            y = 0;}
    }
 void keyPressed() {
     if (keyCode == UP) {y = y - 5;} 
