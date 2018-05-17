@@ -15,12 +15,9 @@ void setup(){
 void draw() {
    background(107,244,66);
     rectMode(CENTER);
-     rect(x,y,20,20);}
-     void keyPressed() {
-    if (keyCode == UP) {
-   y = y - 5;
-    } if (keyCode == DOWN){
-      y = y +5;
-
-  }
+     rect(x,y,20,20);
+   }
+void keyPressed() {
+    if (keyCode == UP) {y = y - 5;} 
+    if (keyCode == DOWN){y = y +5;}
      }
