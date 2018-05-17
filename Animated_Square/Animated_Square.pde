@@ -16,6 +16,11 @@ void draw() {
    background(107,244,66);
     rectMode(CENTER);
      rect(x,y,20,20);
+      if (x < 0){
+      x = width;
+    }
+      if ( x > width ){
+        x = 0;}
    }
 void keyPressed() {
     if (keyCode == UP) {y = y - 5;} 
