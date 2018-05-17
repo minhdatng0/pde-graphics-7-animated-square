@@ -5,7 +5,8 @@
 * Computer Sci 10 Assginment
 * Basic Animate Square 
 */
-
+int x = 350;
+int y = 350;
 void setup(){
    size(700,700);
     
