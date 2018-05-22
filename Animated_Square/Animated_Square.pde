@@ -16,7 +16,7 @@ void setup(){
 void draw() {
    background(107,244,66);
     rectMode(CENTER);
-     rect(x,y,20,20);
+     rect(x,y,a,a);
       if (x < 0){
       x = width;
     }
