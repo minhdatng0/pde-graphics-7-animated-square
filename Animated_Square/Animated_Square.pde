@@ -18,6 +18,7 @@ void draw() {
    background(107,244,66);
     rectMode(CENTER);
     fill(255);
+    stroke(0);
      rect(x,y,a +p*5,a+p*5);
       if (x < 0){
       x = width;
