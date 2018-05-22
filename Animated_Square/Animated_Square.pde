@@ -7,6 +7,7 @@
 */
 int x = 350;
 int y = 350;
+int a = 20;
 void setup(){
    size(700,700);
     
