@@ -27,6 +27,7 @@ void draw() {
           y = height;}
           if ( y > height){
             y = 0;}
+       rect(350,0,700,80);
    }
 void keyPressed() {
     if (keyCode == UP) {y = y - 5 - p*2;} 
