@@ -27,6 +27,8 @@ void draw() {
           y = height;}
           if ( y > height){
             y = 0;}
+            fill(255,0,0);
+            stroke(255,0,0);
        rect(350,0,700,80);
    }
 void keyPressed() {
