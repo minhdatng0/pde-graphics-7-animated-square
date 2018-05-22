@@ -29,9 +29,9 @@ void draw() {
             y = 0;}
    }
 void keyPressed() {
-    if (keyCode == UP) {y = y - 5;} 
-    if (keyCode == DOWN){y = y + 5;}
-    if (keyCode == LEFT){x = x - 5;}
-    if (keyCode == RIGHT){x = x + 5;}
+    if (keyCode == UP) {y = y - 5 - p*2;} 
+    if (keyCode == DOWN){y = y + 5 + p*2;}
+    if (keyCode == LEFT){x = x - 5 - p*2;}
+    if (keyCode == RIGHT){x = x + 5 + p*2;}
     if (keyCode == 80){p = p+1;}
      }
