@@ -32,6 +32,8 @@ void draw() {
             fill(255,0,0);
             stroke(255,0,0);
        rect(350,0,700,80);
+       if ( x < 60 ) {
+         text("Warning: Wormhole detected ahead. Approach with caution",350,100);}
    }
 void keyPressed() {
     if (keyCode == UP) {y = y - 5 - p*2;} 
